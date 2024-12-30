@@ -1,0 +1,12 @@
+You are given a file that contains data describing a binary tree whose nodes are strings. The file begins with an integer N, the number of nodes in the tree, on a line by itself. This first line is followed by N additional lines where each line specifies child information for a node in the tree. The line for a node X starts with X itself followed by a list of the children of X. Names of nodes are separated by whitespace. For example, the data set
+
+5
+Al Bob Carol
+Bob Debby Elaine
+Carol
+Debby
+Elaine
+
+represents a binary tree in which Al has two children named Bob and Carol; Bob has two children named Debby and Elaine; and Carol, Debby, and Elaine have no children. Write a program that reads in data from such a file and displays it in a JTree component.
+
+Implement buildTreeFromFile() starting on like 94 of Main.java
